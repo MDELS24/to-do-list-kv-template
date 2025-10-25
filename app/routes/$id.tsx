@@ -55,7 +55,7 @@ export default function () {
     <div className="min-h-screen bg-gray-100 dark:bg-gray-900 py-8 px-4">
       <div className="max-w-md mx-auto">
         <h1 className="text-3xl font-bold text-gray-800 dark:text-white mb-8">
-          Todo List
+          Todo List de Nicolas
         </h1>
 
         <Form method="post" className="mb-8 flex gap-2">
@@ -71,7 +71,7 @@ export default function () {
             value="create"
             className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
           >
-            Add
+            Ajouter
           </button>
         </Form>
 
@@ -93,7 +93,7 @@ export default function () {
                     className={
                       todo.completed ? "line-through text-gray-400" : ""
                     }
-                  >
+                  > 
                     {todo.text}
                   </span>
                 </button>
