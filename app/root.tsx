@@ -35,7 +35,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         {children}
         <ScrollRestoration />
         <Scripts />
-        <Text>Helllooooooo World ! </Text>
+        <Text>Helllooooooo World !! </Text>
       </body>
     </html>
   );
